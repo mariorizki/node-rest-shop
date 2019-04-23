@@ -1,0 +1,22 @@
+{
+  "name": "rest-shop",
+  "version": "1.0.0",
+  "description": "A node.js RESTful API (simple shop API)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariorizki/node-rest-shop.git"
+  },
+  "author": "Mario Rizki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariorizki/node-rest-shop/issues"
+  },
+  "homepage": "https://github.com/mariorizki/node-rest-shop#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
