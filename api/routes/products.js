@@ -13,4 +13,16 @@ router.post('/', (req, res, next) => {
   });
 });
 
+router.patch('/', (req, res, next) => {
+  res.status(200).json({
+    message: 'Updated Product!'
+  });
+});
+
+router.delete('/', (req, res, next) => {
+  res.status(200).json({
+    message: 'Deleted Product!'
+  });
+});
+
 module.exports = router;
